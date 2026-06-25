@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-2"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 02:58:01 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMjo0NDowMiBQTTsyNzUw"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMjo1ODowMSBQTTs0OzI4NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="length" type="Integer" array="False" size=""/>
+            <input variable="length"/>
+            <declare name="totalLength" type="Integer" array="False" size=""/>
+            <assign variable="totalLength" expression=""/>
+        </body>
+    </function>
+</flowgorithm>
