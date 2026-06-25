@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 02:38:07 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMjoyODo0OCBQTTsyNzYy"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMjozODowNyBQTTs0OzI4Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ringgitAmount" type="Real" array="False" size=""/>
+            <input variable="ringgitAmount"/>
+            <declare name="bahtReceived" type="Real" array="False" size=""/>
+            <assign variable="bahtReceived" expression="ringgitAmount - (ringgitAmount * (2/100))"/>
+            <output expression="bahtReceived" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
