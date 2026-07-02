@@ -4,19 +4,17 @@
         <attribute name="name" value="lab-03-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-02 02:54:00 PM"/>
+        <attribute name="saved" value="2026-07-02 03:10:00 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMjswMjo0NjozNCBQTTsyNzUz"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMjswMjo1NDowMCBQTTsxOzI4NTM="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMjswMzoxMDowMCBQTTsyOzI4NDc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <output expression="&quot;Total nights : &quot;" newline="False"/>
             <declare name="numNight" type="Integer" array="False" size=""/>
             <input variable="numNight"/>
             <declare name="totalPayment" type="Real" array="False" size=""/>
             <assign variable="totalPayment" expression="(numNight * 250.00) + (numNight * 250.00 * 0.15)"/>
-            <output expression="&quot;Total Payment [RM] : &quot;" newline="False"/>
             <output expression="totalPayment" newline="True"/>
         </body>
     </function>
